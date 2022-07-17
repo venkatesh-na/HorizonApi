@@ -1,4 +1,4 @@
-1) sign up in open weather api and get api key
+1) sign up in open weather api and get api key (openweathermap.org)
 2) open vscode and create .html and .js file
 3) explain what are we doing today
 4) build a form ( input, button ) outside a form tag create a div tag width class name result
