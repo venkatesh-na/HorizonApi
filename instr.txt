@@ -1,0 +1,40 @@
+1) sign up in open weather api and get api key
+2) open vscode and create .html and .js file
+3) explain what are we doing today
+4) build a form ( input, button ) outside a form tag create a div tag width class name result
+5) query the html element by css selector and console.log the element by live server
+6) text and explain preventDefault
+7) console.log the fetch function and show what is returned (promise)
+8) explain what is promise ( with example )
+9) how to handle promise by .then and .catch
+10) why converting res object to json
+11) this is the result that we got from res.json()
+result = {
+    whether : [ { description : "overcloud" } ]
+}
+
+//Task to students
+12) write structure of fetch in board
+    fetch(url)
+    .then(res => res.json())
+    .then(result => console.log(result))
+13) go to covid19api.com -> scroll down-> documentation on post man ->  'https://api.covid19api.com/summary' -> get me the NewConfirmed case inindia
+result = {
+    Countries : [
+        77 : { NewConfirmed : 1233 }
+    ]
+}
+
+
+
+
+extra : 
+{
+    method : "POST",
+    headers:{
+    "Content-type":"application/json",
+    }
+    body:{
+        name: "user 1" 
+    }
+}
