@@ -29,7 +29,7 @@ button.addEventListener("click",(event)=>{
         value = result.weather[0].description
         console.log(result.weather[0].description)  
         button.textContent = "show"
-        resultDiv.innerHTML = `<h1>${value}</h1>`
+        resultDiv.innerHTML = `<h2>${value}</h2>`
     })
     .catch(function(e){
         //promise will fail only if there is some sort of network error or failure
