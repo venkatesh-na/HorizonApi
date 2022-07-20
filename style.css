@@ -40,14 +40,26 @@ body > h1{
     color:rgb(143, 143, 143);
     margin-bottom: 10px;
 }
-.result h2{
-    margin-top:15px;
-    width: 50vw;
-    box-shadow: 0px 0px 1px 1px grey;
-    text-align: center;
-    padding: 10px;
-    background-color:rgb(249, 249, 255);
-    color:rgb(24, 24, 67);
+
+.result > div{
+    margin-top: 15px;
+        width: 50vw;
+        box-shadow: 0px 0px 1px 1px grey;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(249, 249, 255);
+        color: rgb(24, 24, 67);
+}
+.result > div > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.result p{
+    font-size: 1.6rem;
+}
+.result sup{
+    font-size: 1rem;
 }
 
 button:hover{
@@ -61,7 +73,7 @@ button:active{
     form{
         width:30%;
     }
-    .result h2{
+    .result > div{
         width:30vw;
     }
 }
@@ -69,10 +81,7 @@ button:active{
     form{
         width:90%;
     }
-    .result h2{
+    .result > div{
         width:90vw;
     }
 }
-
-
-
